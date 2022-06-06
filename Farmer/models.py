@@ -9,3 +9,5 @@ class Farmer(models.Model):
     l_name = models.CharField(max_length=100)
     email= models.EmailField()
     password = models.CharField(max_length=10)
+    class Meta:
+        db_table= "farmer"
