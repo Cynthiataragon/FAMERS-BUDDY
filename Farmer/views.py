@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def home(request):
-    return HttpResponse("Hello world I am working")
+    return render (request, "Template/index.html")
 
 def signup(request):
     return render(request, "Template/signup.html")
