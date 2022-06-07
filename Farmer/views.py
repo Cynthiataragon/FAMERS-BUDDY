@@ -12,5 +12,5 @@ def signin(request):
     return render(request, "Template/signin.html")
 
 def signout(request):
-    return render(request, "Template/signout.html")
+    pass
     
